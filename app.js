@@ -9,7 +9,7 @@ function getJoke(e) {
   const xhr2 = new XMLHttpRequest();
 
   xhr.open('GET', `https://api.icndb.com/jokes/random/${number}`, true);
-  xhr2.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=funny', true)
+  xhr2.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=chuck+norris', true)
 
   //GET JOKE
   xhr.onload = function () {
