@@ -8,8 +8,8 @@ function getJoke(e) {
   //GIF REQUEST
   const xhr2 = new XMLHttpRequest();
 
-  xhr.open('GET', `http://api.icndb.com/jokes/random/${number}`, true);
-  xhr2.open('GET', 'http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=funny', true)
+  xhr.open('GET', `https://api.icndb.com/jokes/random/${number}`, true);
+  xhr2.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=funny', true)
 
   //GET JOKE
   xhr.onload = function () {
